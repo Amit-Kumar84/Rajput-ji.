@@ -1,9 +1,12 @@
 ffvpn= "https://vpn.uibe.edu.cn/por/phone_index.csp?rnd=0.23178949332658605#https%3A%2F%2Fvpn.uibe.edu.cn%2F" 
-if PW[1] == "" then gg.alert("😡 SUBSCRIBE MR HACKER YT😡") os.exit() end
-if PW[1] =="2386" then 
+PW = gg.prompt({'🔒 Input password: '},{[1]=''},{[1]='MR HACKER YT'})
+if not PW then return
+end 
+if PW[1] == "" then gg.alert("😡SUBSCRIBE MR HACKER YT😡") os.exit() end
+if PW[1] =="4321" then 
  gg.toast('CREDIT INDIAN@ LEGION')
 else 
- gg.alert("MADRCHOD PASWARD SHI DAAL") return 
+ gg.alert("MADRCHOD PASWARD SHI DAAL") return end 
 x=(tostring(gg.makeRequest(ffvpn))) 
 if not x  or not x:sub(1,20) then  
 gg.alert("Hi","GO") 
